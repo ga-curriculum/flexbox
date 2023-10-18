@@ -1,4 +1,4 @@
-# [tktk Module Name]
+# Introduction to Flexbox
 
 ![Hero image](./assets/tktkhero-main.png)
 
@@ -11,7 +11,7 @@ tktk What is the takeaway of this module?
 | Lesson | Video Time | Video | Topics Covered |
 | ------ |:----------:|:-----:| -------------- |
 | [Setup](./setup/README.md) | -- | -- | tktk topics covered |
-| [tktk Microlesson Name](./tktk-microlesson-02/README.md) | -- | -- | tktk topics covered |
+| [Concepts](./concepts/README.md) | -- | -- | tktk topics covered |
 | [tktk Microlesson Name](./tktk-microlesson-03/README.md) | -- | -- | tktk topics covered |
 |  **Total Module**                                        | -- | ---           | ---                 |
 
