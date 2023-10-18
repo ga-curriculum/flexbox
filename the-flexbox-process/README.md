@@ -4,25 +4,56 @@
 
 **Learning objective:** By the end of this lesson, students will be able to tktk
 
-# Intro to Flexbox (and Grid)
+For our next activity, we’ll need to start from scratch with our CSS and HTML files - if you want to create a new lecture project to start from scratch with so that you can keep your notes on, that’s totally fine. Open the toggle below for a command block you can copy that will do this for you quickly:
 
-While this lecture will mainly focus on Flexbox, we’d be remiss not to quickly mention another tool we have in our toolbox to assist us in building attractive sites: Grid.
+- New project setup
+    
+    ```bash
+    mkdir flexbox-site
+    cd flexbox-site
+    mkdir css
+    touch index.html css/style.css
+    code .
+    ```
+    
 
-The capabilities of Flexbox & Grid complement each other. Using both side-by-side and even nesting one within the other is common practice in software engineering. However, as beginner developers, it’s best to focus on one at a time, and we’ve selected Flexbox because it’s typically a more flexible tool (ha!) and easier to grasp and write code for. Also, many of the fundamental concepts of Flexbox transfer to Grid - focusing on those will make Grid easier to learn on your own. If you want to explore it, there is a Level Up writeup focused on [Flexbox & Grid](https://www.notion.so/Flexbox-Grid-eae136a264bc46edbc0dac5cb49900d9?pvs=21).
+If you just want to reset from the beginning with your current files or if you’re starting a new project, this toggle has the starter code for you:
 
-As a front-end developer, you must precisely layout web page elements. Before Flexbox and Grid, building a web page layout was cumbersome and overly complicated - these tools were game-changers.
+- Starter code
 
-The difference between Flexbox and Grid is how they lay out their children:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dribbble Flex</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
 
-**tktk IMAGE HERE**
+</body>
+</html>
 
-This makes Flexbox appear quite limited at first glance, but we can nest a flexbox within a flexbox to assist in creating a 2-dimensional layout, as you’ll see in this lecture.
+index.html
 
-# Why Use Flexbox?
+html {
+  box-sizing: border-box;
+}
 
-Flexbox excels at assisting devs with the following tasks:
+/* The Universal Selector */
+*, /* All elements*/
+*::before, /* All ::before pseudo-elements */
+*::after { /* All ::after pseudo-elements */
+  /* height & width will now include border & padding by default
+     but can be over-ridden as needed */
+  box-sizing: inherit;
+}
 
-- Vertically centering content & elements within a container element.
-- Spacing child elements within a container uniformly.
-- Making the height of child elements laid out in columns the same even though they have a different amount of content.
-- Creating complex, responsive designs without floats, positioning, or other hacks that can be difficult to maintain.
+body {
+  background-color: gray;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+css/style.css
