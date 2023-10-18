@@ -12,7 +12,7 @@ tktk What is the takeaway of this module?
 | ------ |:----------:|:-----:| -------------- |
 | [Setup](./setup/README.md) | -- | -- | tktk topics covered |
 | [Concepts](./concepts/README.md) | -- | -- | tktk topics covered |
-| [tktk Microlesson Name](./tktk-microlesson-03/README.md) | -- | -- | tktk topics covered |
+| [Fundamentals](./tktk-microlesson-03/README.md) | -- | -- | tktk topics covered |
 |  **Total Module**                                        | -- | ---           | ---                 |
 
 ## Additional content 
