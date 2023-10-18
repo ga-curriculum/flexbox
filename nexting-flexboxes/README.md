@@ -4,25 +4,47 @@
 
 **Learning objective:** By the end of this lesson, students will be able to tktk
 
-# Intro to Flexbox (and Grid)
+# Nesting Flexboxes
 
-While this lecture will mainly focus on Flexbox, we’d be remiss not to quickly mention another tool we have in our toolbox to assist us in building attractive sites: Grid.
+There’s one last major topic to cover before we move on to applying these ideas in a larger application which is the idea that we can *nest* a Flexbox inside of another Flexbox, like this (note a couple of small changes to the `flex-parent` class as well):
 
-The capabilities of Flexbox & Grid complement each other. Using both side-by-side and even nesting one within the other is common practice in software engineering. However, as beginner developers, it’s best to focus on one at a time, and we’ve selected Flexbox because it’s typically a more flexible tool (ha!) and easier to grasp and write code for. Also, many of the fundamental concepts of Flexbox transfer to Grid - focusing on those will make Grid easier to learn on your own. If you want to explore it, there is a Level Up writeup focused on [Flexbox & Grid](https://www.notion.so/Flexbox-Grid-eae136a264bc46edbc0dac5cb49900d9?pvs=21).
+```css
+.flex-parent {
+  background-color: black;
+  display: flex;
+  height: 600px;
+  justify-content: space-around;
+	align-items: center;
+}
 
-As a front-end developer, you must precisely layout web page elements. Before Flexbox and Grid, building a web page layout was cumbersome and overly complicated - these tools were game-changers.
+.flex-child {
+  font-family: sans-serif;
+  font-size: 48px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+}
+```
 
-The difference between Flexbox and Grid is how they lay out their children:
+Now any element with the `flex-child` class is also a Flexbox itself - `flex-child` isn’t a great name for this class now, but this is a great demonstration of the fact that flex children can themselves be flex parents!
 
-**tktk IMAGE HERE**
+A couple of items of note with this:
 
-This makes Flexbox appear quite limited at first glance, but we can nest a flexbox within a flexbox to assist in creating a 2-dimensional layout, as you’ll see in this lecture.
+- This has no impact on how the flex children inside the existing flex parent behave. They will still follow all of the existing rules of flex children, and if we wanted to, we could apply child-specific properties to the `flex-child` class. Just like in real life, someone can simultaneously be a parent of a child and a child of a parent.
+- What are the children elements of the `flex-child` `div`s? Even though there aren’t specific elements inside of them, text is considered an element itself, so if we apply rules to these elements that will impact their children then the text will be targeted!
 
-# Why Use Flexbox?
+This means that with this change:
 
-Flexbox excels at assisting devs with the following tasks:
+```css
+.flex-child {
+  font-family: sans-serif;
+  font-size: 48px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+```
 
-- Vertically centering content & elements within a container element.
-- Spacing child elements within a container uniformly.
-- Making the height of child elements laid out in columns the same even though they have a different amount of content.
-- Creating complex, responsive designs without floats, positioning, or other hacks that can be difficult to maintain.
+The text will now be centered inside their boxes both horizontally and vertically! Cool!
