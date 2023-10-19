@@ -4,6 +4,13 @@
 
 **Learning objective:** By the end of this lesson, students will be able to tktk
 
+2. Intro to Flexbox & CSS Grid
+As a front-end developer, you will be required to precisely lay out the elements on web pages.
+
+Prior to Flexbox & CSS Grid, laying out the parts of a web page - from basic navigation headers to complex full-page layouts - was anything but a straightforward process. Luckily, Flexbox (and later Grid) came along and they were both game changers, making web design easier, more efficient and more intuitive. We are even able to use them together, either side-by-side (or nested within the other), they actually complement each other quite well.
+
+The big difference between Flexbox and CSS Grid is how they work, more specifically how they lay out their children:
+
 # Intro to Flexbox (and Grid)
 
 While this lecture will mainly focus on Flexbox, we’d be remiss not to quickly mention another tool we have in our toolbox to assist us in building attractive sites: Grid.
