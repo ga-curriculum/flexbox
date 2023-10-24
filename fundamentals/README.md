@@ -2,7 +2,7 @@
 
 ![Hero image](../assets/tktkhero-main-subhead.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to create Flexbox containers and items.
 
 ## Use of Classes to Define Flexbox Parents and Children
 
