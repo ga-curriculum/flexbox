@@ -21,4 +21,15 @@ We have four distinct parts of this page:
 
 Breaking a site like this down into distinct parts is the foundation of our work with a layout. What you’re going to find with Flexbox is that the process is ultimately just about putting boxes (elements) inside of other boxes (elements that are Flexboxes).
 
+Let’s get each of the parts that we've identified and set them up in our new code:
+
+```html
+<body>
+  <nav></nav>
+  <section id="hero"></section>
+  <div id="subnav"></div>
+  <main></main>
+</body>
+```
+
 The next step will be coding out each distinct section of our site.
