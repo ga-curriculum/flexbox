@@ -49,4 +49,6 @@ This means that with this change:
 }
 ```
 
-The text will **now** be centered inside their boxes both horizontally and vertically! Cool!
+The text **(the numbers in our boxes)** will **now** be centered inside their boxes both horizontally and vertically! Cool!
+
+> **[tktk tktk Maybe add one additional image of the nested flexboxes to show for good measure, maybe not, depending on if we feel the students will get it.]**
