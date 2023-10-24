@@ -73,6 +73,8 @@ Apply one more change to the `.flex-parent` rule: `justify-content: space-around
 
 Notice the result and how it differs from when the `flex-direction` was its default value, `row`.
 
+## Main Axis & Cross Axis
+
 A **flex container** also has a **main axis** as well as a **cross axis**. 
 
 For example, if the `flex-direction` is `row` (the default):
