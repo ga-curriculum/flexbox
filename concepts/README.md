@@ -2,7 +2,7 @@
 
 ![Hero image](../assets/tktkhero-main-subhead.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to give a basic description of Flexbox and why it is a game changer when it comes to creating layouts.
 
 
 # Introduction to Flexbox
@@ -15,7 +15,7 @@ One thing to note about Flexbox is that it is designed to assist the developer i
 
 ![Flexbox Layouts](./assets/flexbox-layouts.png)
 
-**tktk tktk The image above is taken from the original lecture, but it was downloaded from imgur and not sure about the actual ownership. Also, we can probably create one that better suits our needs.**
+> **[tktk tktk The image above is taken from the original lecture, but it was downloaded from imgur and not sure about the actual ownership. Also, we can probably create one that better suits our needs.]**
 
 # Why Use Flexbox?
 
