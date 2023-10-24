@@ -1,72 +1,8 @@
-# Concepts
+# Build a Landing Page: Breakdown
 
 ![Hero image](../assets/tktkhero-main-subhead.png)
 
 **Learning objective:** By the end of this lesson, students will be able to tktk
-
-For our next activity, we’ll need to start from scratch with our CSS and HTML files - if you want to create a new lecture project to start from scratch with so that you can keep your notes on, that’s totally fine. Open the toggle below for a command block you can copy that will do this for you quickly:
-
-- New project setup
-    
-    ```bash
-    mkdir flexbox-site
-    cd flexbox-site
-    mkdir css
-    touch index.html css/style.css
-    code .
-    ```
-    
-
-If you just want to reset from the beginning with your current files or if you’re starting a new project, this toggle has the starter code for you:
-
-- Starter code
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dribbble Flex</title>
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-
-</body>
-</html>
-
-index.html
-
-html {
-  box-sizing: border-box;
-}
-
-/* The Universal Selector */
-*, /* All elements*/
-*::before, /* All ::before pseudo-elements */
-*::after { /* All ::after pseudo-elements */
-  /* height & width will now include border & padding by default
-     but can be over-ridden as needed */
-  box-sizing: inherit;
-}
-
-body {
-  background-color: gray;
-  font-family: sans-serif;
-  margin: 0;
-}
-
-css/style.css
-
-# Let’s build a site together!
-
-We’re doing to re-create the landing page for [**dribbble.com**](https://dribbble.com)! We’ll start by talking about the larger overall pieces of the site and then dive into building those individual pieces to create the whole!
-
-Let’s take a quick look at the site.
-
-![Hero image](../assets/tktkhero-main-subhead.png)
-
-As part of this process, let’s also set some reasonable expectations for what we're trying to accomplish. We’re going to keep our re-creation focused around the layout of the site - we’re not going to try to duplicate fonts, photos, colors, animation, functionality, size of elements, etc. This will help keep us focused on the task at hand: learning to design a site using Flexbox. The purpose isn't to FULLY recreate the site, we're focused on how these elements are laid out at a very basic level.
 
 # The Flexbox Process
 

@@ -15,7 +15,9 @@ tktk What is the takeaway of this module?
 | [Fundamentals](./fundamentals/README.md) | -- | -- | tktk topics covered |
 | [Flexbox Properties](./flexbox-properties/README.md) | -- | -- | tktk topics covered |
 | [Nesting Flexboxes](./nesting-flexboxes/README.md) | -- | -- | tktk topics covered |
-| [The Flexbox Process](./the-flexbox-process/README.md) | -- | -- | tktk topics covered |
+| [Build a Landing Page - Setup](./build-landing-page-setup/README.md) | -- | -- | tktk topics covered |
+| [Build a Landing Page - Breakdown](./build-landing-page-breakdown/README.md) | -- | -- | tktk topics covered |
+| [Build a Landing Page - Nav](./build-landing-page-nav/README.md) | -- | -- | tktk topics covered |
 | [Review](./review/README.md) | -- | -- | tktk topics covered |
 |  **Total Module**                                        | -- | ---           | ---                 |
 
