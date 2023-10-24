@@ -13,7 +13,7 @@ tktk What is the takeaway of this module?
 | [Setup](./setup/README.md) | -- | -- | tktk topics covered |
 | [Concepts](./concepts/README.md) | -- | -- | tktk topics covered |
 | [Fundamentals](./fundamentals/README.md) | -- | -- | tktk topics covered |
-| [Flexbox Exploration](./flexbox-exploration/README.md) | -- | -- | tktk topics covered |
+| [Flexbox Properties](./flexbox-properties/README.md) | -- | -- | tktk topics covered |
 | [Nesting Flexboxes](./nexting-flexboxes/README.md) | -- | -- | tktk topics covered |
 | [The Flexbox Process](./the-flexbox-process/README.md) | -- | -- | tktk topics covered |
 | [Review](./review/README.md) | -- | -- | tktk topics covered |
