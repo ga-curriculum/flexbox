@@ -2,7 +2,7 @@
 
 ![Hero image](../assets/tktkhero-main-subhead.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to create HTML and CSS files with starter code for this module's lecture.
 
 Open your Terminal application and navigate to your `~/code/ga/lectures` directory:
 
