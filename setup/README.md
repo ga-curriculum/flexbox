@@ -89,4 +89,4 @@ Open the `index.html` file in your browser.
 
 You should see something that looks like the following in your browser:
 
-![Flexbox Setup Preview](./assets/flexbox-setup.png)
+![Flexbox Setup Preview](../assets/flexbox-setup.png)

@@ -1,20 +1,29 @@
 # Fundamentals
 
-![Hero image](./assets/hero.png)
+![Hero image](../assets/tktkhero-main-subhead.png)
 
 **Learning objective:** By the end of this lesson, students will be able to tktk
 
-Let’s start with some simple HTML to get acquainted with the fundamentals:
+We are going to start with the simple HTML we created in Setup to get acquainted with the fundamentals of Flexbox:
 
-Here, we are giving these items classes called `“flex-parent”` and `“flex-child”`, but the actual application of Flexbox occurs in our CSS file. We could give these items a totally unrelated class name, but for the sake of this demonstration, let’s stick with these. 
+```html
+<section class="flex-parent">
+  <div class="flex-child">1</div>
+  <div class="flex-child">2</div>
+  <div class="flex-child">3</div>
+  <div class="flex-child">4</div>
+</section>
+```
 
-Also, go ahead and copy over some CSS as well:
+Here, we are giving these items classes called `“flex-parent”` and `“flex-child”`, but the **actual application of Flexbox occurs in our CSS file**. Please note, we could give these items a totally unrelated class name, but let's be sure we are utilizing good developer practices by assigning meaningful naming conventions.
 
-After this work, you should see something that looks like this in your browser:
+You should already have the rendering of the above HTML open in your browser and see something like this:
+
+![Flexbox Setup Preview](../assets/flexbox-setup.png)
 
 There are a few things of interest to take note of here so far:
 
-- The `section` element is a ******parent****** element to the 4 `div` elements inside it. These `div` elements are the ********children******** of the `section` element.
+- The `section` element is a ******parent****** element to the 4 `div` elements inside it. These `div` elements are the ********children******** of the `section` element (hence, our naming convention of the classes).
 - The `section` element is a *****block***** element. Block elements take up the entire width of their parent element, which, in this case, is the `body` element. By default, the `body` element is the full width of the browser window.
 - Because `div`s are *****block***** elements, they, by default, also take up the full width of their ******parent****** element.
 - Also by default, their ******height****** is defined by the height of their contents. Unless you specify otherwise, they will be just as tall as they need to be to accommodate the content they hold.
