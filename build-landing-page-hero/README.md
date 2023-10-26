@@ -59,7 +59,6 @@ Utilize the Complete Guide to Flexbox to help you:
 - Give this `hero` `section` a height of 560px, like this section is on dribbble’s site. Also give it a black background and white colored text.
 - Turn the `hero` `section` into a Flexbox. Have it lay out its children in a column. Implement a Flexbox property to make it so that each of its children elements has some space around them.
 - Turn the `discover` and `trending` `div`s into Flexboxes, have them lay out their children in a row, center those children horizontally and vertically within them, and make it so each element has a small gap between it and the other elements - you can have this match dribbble’s site or not. Give each `p` element a white background with black text (this is different than dribbble’s site, but simpler for us to implement - again the focus here is Flexbox). Also give the `p` elements in both the `discover` and `trending` `div`s an appropriate border radius, along with padding.
-
 - Turn the `headers` `div` into a flexbox and have it lay out its children in a column. Make it so that the font size of the h1 and h2 elements matches the font size from dribbble’s site. Make sure the text is vertically centered as well. Make sure there is no margin at the top of the `h1` element and that there is no margin on the bottom of the `h2` element, or else the `headers` element will be too large.
 - Give the input a size matching the size of the input element from dribbble’s site, along with an appropriate amount of padding and border radius. Remove the border from the element as well.
 
