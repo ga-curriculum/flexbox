@@ -18,6 +18,7 @@ tktk What is the takeaway of this module?
 | [Build a Landing Page - Setup](./build-landing-page-setup/README.md) | -- | -- | tktk topics covered |
 | [Build a Landing Page - Breakdown](./build-landing-page-breakdown/README.md) | -- | -- | tktk topics covered |
 | [Build a Landing Page - Nav](./build-landing-page-nav/README.md) | -- | -- | tktk topics covered |
+| [Build a Landing Page - Hero](./build-landing-page-hero/README.md) | -- | -- | tktk topics covered |
 | [Review](./review/README.md) | -- | -- | tktk topics covered |
 |  **Total Module**                                        | -- | ---           | ---                 |
 
