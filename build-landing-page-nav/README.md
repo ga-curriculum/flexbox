@@ -6,7 +6,7 @@
 
 ## Nav
 
-![Nav Bar](./assets/nav.png)
+![Nav Bar](./assets/nav-bar.png)
 
 Above is a dissection of the nav bar for the site. Looking at this we can broadly describe the items on the left side of the nav being ***destinations*** on the site and the items on the right of the nav as being related to user ***actions***.
 
