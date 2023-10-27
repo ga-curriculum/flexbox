@@ -56,7 +56,7 @@ Let’s check out what we have so far:
 
 Great, our content is in place! Now let’s do a small bit of work to get it looking a little bit more like the original, and then we can make it flex!
 
-Go to your browser, open the dev tools, and select the element picker (we lovingly refer to this as the magic wand). Select the `Sign up` button from [dribble's live site](https://dribbble.com/). Get used to using this tool often. It’s one of the most useful tools you have in the browser to inspect elements quickly.
+Go to your browser, open the dev tools, and select the element picker (we lovingly refer to this as the magic wand). Select the `Sign up` button from [our reference site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/array-iterator-methods-reference-site/). Get used to using this tool often. It’s one of the most useful tools you have in the browser to inspect elements quickly.
 
 ![Magic Wand](./assets/magic-wand.png)
 
@@ -71,14 +71,12 @@ Here’s what we’ll need to implement to mimic this styling
 
 ```css
 nav button {
-  height: 48px;
-  padding: 24px;
-  border: 1.5px solid #0d0c22;
-  border-radius: 9999999px;
-  background-color: #0d0c22;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 600;
+  background-color: #f082ac;
+  border-radius: 8px;
+  padding: 10px 16px;
+  border: 0;
+  color: #ffffff;
+  font-weight: 500;
 }
 ```
     
@@ -148,32 +146,27 @@ And here’s the resulting CSS so far if you need it afterwords:
     padding: 0 24px;
   }
 
+  nav button {
+    background-color: #ea4c89;
+    border-radius: 8px;
+    padding: 10px 16px;
+    border: 0;
+    color: #ffffff;
+    font-weight: 500;
+  }
 
   nav > div {
     display: flex;
-    height: 90px;
+    height: 80px;
     align-items: center;
   }
 
   nav > div:first-child {
-    gap: 40px;
+    gap: 32px;
   }
 
   nav > div:last-child {
     gap: 16px;
-  }
-
-  nav button {
-    height: 48px;
-    padding: 24px;
-    border: 1.5px solid #0d0c22;
-    border-radius: 9999999px;
-    background-color: #0d0c22;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
   }
   ```
 </details>
