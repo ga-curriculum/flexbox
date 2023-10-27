@@ -1,4 +1,4 @@
-# [tktk Module Name]
+# Introduction to Flexbox
 
 ![Hero image](./assets/tktkhero-main.png)
 
@@ -10,10 +10,17 @@ tktk What is the takeaway of this module?
 
 | Lesson | Video Time | Video | Topics Covered |
 | ------ |:----------:|:-----:| -------------- |
-| [tktk Microlesson Name](./tktk-microlesson-01/README.md) | tktk min | [tktk Link]() | tktk topics covered |
-| [tktk Microlesson Name](./tktk-microlesson-02/README.md) | tktk min | [tktk Link]() | tktk topics covered |
-| [tktk Microlesson Name](./tktk-microlesson-03/README.md) | tktk min | [tktk Link]() | tktk topics covered |
-|  **Total Module**                                        | tktk min | ---           | ---                 |
+| [Setup](./setup/README.md) | -- | -- | tktk topics covered |
+| [Concepts](./concepts/README.md) | -- | -- | tktk topics covered |
+| [Fundamentals](./fundamentals/README.md) | -- | -- | tktk topics covered |
+| [Flexbox Properties](./flexbox-properties/README.md) | -- | -- | tktk topics covered |
+| [Nesting Flexboxes](./nesting-flexboxes/README.md) | -- | -- | tktk topics covered |
+| [Build a Landing Page - Setup](./build-landing-page-setup/README.md) | -- | -- | tktk topics covered |
+| [Build a Landing Page - Breakdown](./build-landing-page-breakdown/README.md) | -- | -- | tktk topics covered |
+| [Build a Landing Page - Nav](./build-landing-page-nav/README.md) | -- | -- | tktk topics covered |
+| [Build a Landing Page - Hero](./build-landing-page-hero/README.md) | -- | -- | tktk topics covered |
+| [Review](./review/README.md) | -- | -- | tktk topics covered |
+|  **Total Module**                                        | -- | ---           | ---                 |
 
 ## Additional content 
 
