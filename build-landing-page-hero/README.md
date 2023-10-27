@@ -136,3 +136,9 @@ Here’s the resulting CSS that we added!
 And here’s our re-creation so far:
 
 ![Finished Hero](./assets/finished-hero.png)
+
+## You can take it from here...
+
+You've done a great job working on the first two sections of this landing page here. We still have the `sub nav` and the `main` sections to complete, but now it's time for you to practice some on your own. 
+
+These will be assigned for you to complete as a lab.
