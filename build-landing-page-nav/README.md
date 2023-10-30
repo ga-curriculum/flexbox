@@ -56,7 +56,7 @@ Let’s check out what we have so far:
 
 Great, our content is in place! Now let’s do a small bit of work to get it looking a little bit more like the original, and then we can make it flex!
 
-Go to your browser, open the dev tools, and select the element picker (we lovingly refer to this as the magic wand). Select the `Sign up` button from [our reference site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/array-iterator-methods-reference-site/). Get used to using this tool often. It’s one of the most useful tools you have in the browser to inspect elements quickly.
+Go to your browser, open the dev tools, and select the element picker (we lovingly refer to this as the magic wand). Select the `Sign up` button from [our reference site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-flexbox-reference-deployed/). Get used to using this tool often. It’s one of the most useful tools you have in the browser to inspect elements quickly.
 
 ![Magic Wand](./assets/magic-wand.png)
 
@@ -87,7 +87,7 @@ Even after all this work, we’re nowhere close to an exact match, and that’s 
 
 ### You Do 💪 - 5 minutes
 
-- Find the background color of the nav bar element from [dribble](https://dribbble.com/) using the magic wand in the browser and change the color of our nav bar element to match.
+- Find the background color of the nav bar element from [our reference site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-flexbox-reference-deployed/) using the magic wand in the browser and change the color of our nav bar element to match.
 - Turn the nav bar into a Flexbox. Select a value on `justify-content` to make the `destinations` and `actions` appear on opposite sides of the nav bar. Use the [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to help you accomplish this. This won’t look great at the moment, but it’s a start.
 
 > 💡 Something you’ll notice when implementing Flexbox is that things will commonly look much worse until they start to look better.
@@ -109,10 +109,10 @@ Here’s the resulting code if you need it afterwords
 ### You Do In Groups 💪 - 15 minutes
 
 - Turn the `'destinations'` and `'actions'` `div` elements into Flexboxes that lay out their children in a row. Note that these elements are currently flex children - when you turn them into Flexboxes they will be acting as both flex children - to the `nav` element - ***and*** flex parents - to the elements that are inside of them.
-- Using the [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), research a method we could use to create some space between the different elements inside of these `div`s. You can reference the nav bar element from [dribble](https://dribbble.com/) to find the spacing between elements there, or not.
-- Find the height of the nav bar element from [dribble](https://dribbble.com/) using the magic wand in the browser and make it so that the height of our nav bar matches. Note that there’s quite a few ways you could go about this - there is no right and wrong way here, but some ways will make our future work easier or harder.
+- Using the [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), research a method we could use to create some space between the different elements inside of these `div`s. You can reference the nav bar element from [our reference site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-flexbox-reference-deployed/) to find the spacing between elements there, or not.
+- Find the height of the nav bar element from [our reference site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-flexbox-reference-deployed/) using the magic wand in the browser and make it so that the height of our nav bar matches. Note that there’s quite a few ways you could go about this - there is no right and wrong way here, but some ways will make our future work easier or harder.
 - Using the [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), find a method we could use to center the elements inside of the `destinations` and `actions` vertically in the nav bar. Depending on how you set the height of the nav bar this may take multiple new declarations.
-- Add some left and right padding to the `nav` element so that the items on the left and right aren’t on the edge of the screen. You can reference the nav bar element from [dribble](https://dribbble.com/) to find the padding around those elements there, or not.
+- Add some left and right padding to the `nav` element so that the items on the left and right aren’t on the edge of the screen. You can reference the nav bar element from [our reference site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-flexbox-reference-deployed/) to find the padding around those elements there, or not.
 
 And here’s the resulting CSS so far if you need it afterwords:
 
