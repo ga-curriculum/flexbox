@@ -6,7 +6,7 @@
 
 ## Let’s build a site together!
 
-We’re going to re-create an older version of the landing page for [**dribbble.com**](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/array-iterator-methods-reference-site/)!
+We’re going to re-create an older version of the landing page for [**dribbble.com**](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-flexbox-reference-deployed/)!
 
 Just like we'll be focusing on recreating the layout of the reference site and not adding any functionality, the reference site does not have any functionality to worry about either. We've created this static landing page to practice with so that we will have a stable reference for you to focus on, as web applications are continually changing and being updated.
 
