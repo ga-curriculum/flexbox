@@ -1,4 +1,4 @@
-# Introduction to Flexbox
+# Flexbox
 
 ![Hero image](./assets/tktkhero-main.png)
 
