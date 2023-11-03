@@ -4,21 +4,21 @@
 
 **Learning objective:** By the end of this lesson, students will be able to tktk
 
-## Let’s build a site together!
+## Let's build a site together!
 
-We’re going to re-create an older version of the landing page for [**dribbble.com**](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-flexbox-reference-deployed/)!
+We're going to re-create an older version of the landing page for [**dribbble.com**](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-flexbox-reference-deployed/)!
 
 Just like we'll be focusing on recreating the layout of the reference site and not adding any functionality, the reference site does not have any functionality to worry about either. We've created this static landing page to practice with so that we will have a stable reference for you to focus on, as web applications are continually changing and being updated.
 
-We’ll start by talking about the larger overall pieces of the site and then dive into building those individual pieces to create the whole!
+We'll start by talking about the larger overall pieces of the site and then dive into building those individual pieces to create the whole!
 
-Let’s take a quick look at the site.
+Let's take a quick look at the site.
 
 ![Hero image](./assets/dribble-hp.png)
 
 ## Setup
 
-We’ll need to start from scratch with our HTML and CSS files for this activity. You will have two options, either create a new lecture project to start from scratch or reset the code in your current files you've been using up to this point.
+We'll need to start from scratch with our HTML and CSS files for this activity. You will have two options, either create a new lecture project to start from scratch or reset the code in your current files you've been using up to this point.
 
 Both options are totally fine.
 
@@ -144,4 +144,4 @@ If you just want to reset from the beginning with your current files, this toggl
   ```
 </details>
 
-As part of this process, let’s also set some reasonable expectations for what we're trying to accomplish. We’re going to keep our re-creation focused around the layout of the site, not trying to duplicate fonts, photos, colors, animation, functionality, size of elements, etc. This will help keep us focused on the task at hand: **learning to design a site using Flexbox.** The purpose isn't to **FULLY recreate** the site, we're just staying focused on how these elements are laid out at a very basic level.
+As part of this process, let's also set some reasonable expectations for what we're trying to accomplish. We're going to keep our re-creation focused around the layout of the site, not trying to duplicate fonts, photos, colors, animation, functionality, size of elements, etc. This will help keep us focused on the task at hand: **learning to design a site using Flexbox.** The purpose isn't to **FULLY recreate** the site, we're just staying focused on how these elements are laid out at a very basic level.

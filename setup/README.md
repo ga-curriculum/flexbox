@@ -1,6 +1,4 @@
-# Setup
-
-![Hero image](../assets/tktkhero-main-subhead.png)
+# ![Flexbox - Setup](../assets/tktkhero-main-subhead.png)
 
 **Learning objective:** By the end of this lesson, students will be able to create HTML and CSS files with starter code for this module's lecture.
 
@@ -10,11 +8,11 @@ Open your Terminal application and navigate to your `~/code/ga/lectures` directo
 cd ~/code/ga/lectures
 ```
 
-Make a new directory called `flexbox-intro`, then enter this directory:
+Make a new directory called `flexbox`, then enter this directory:
 
 ```bash
-mkdir flexbox-intro
-cd flexbox-intro
+mkdir flexbox
+cd flexbox
 ```
 
 Create a folder called `css`:
@@ -26,7 +24,7 @@ mkdir css
 Then, create an `index.html` file and a `style.css` file that lives inside the `css` folder. These files will hold your work for this lecture:
 
 ```bash
-touch index.html css/style.css
+touch index.html ./css/style.css
 ```
 
 With the files created, open the contents of the directory in VS Code:
@@ -45,41 +43,46 @@ Add the following HTML inside the body:
 
 ```html
   <section class="flex-parent">
-    <div class="flex-child">1</div>
-    <div class="flex-child">2</div>
-    <div class="flex-child">3</div>
-    <div class="flex-child">4</div>
+    <div class="flex-child" id="one">1</div>
+    <div class="flex-child" id="two">2</div>
+    <div class="flex-child" id="three">3</div>
+    <div class="flex-child" id="four">4</div>
   </section>
 ```
 
 Add the following to `css/style.css`:
 
 ```css
+body {
+  background-color: gray;
+  font-family: sans-serif;
+  margin: 0;
+}
+
 .flex-parent {
   background-color: black;
 }
 
 .flex-child {
-  font-family: sans-serif;
   font-size: 48px;
 }
 
-.flex-parent > :nth-child(1) {
+#one {
   background-color: #f0f0f0;
   color: #707070;
 }
 
-.flex-parent > :nth-child(2) {
+#two {
   background-color: #d0d0d0;
   color: #505050;
 }
 
-.flex-parent > :nth-child(3) {
+#three {
   background-color: #b0b0b0;
   color: #303030;
 }
 
-.flex-parent > :nth-child(4) {
+#four {
   background-color: #909090;
   color: #101010;
 }
@@ -89,4 +92,4 @@ Open the `index.html` file in your browser.
 
 You should see something that looks like the following in your browser:
 
-![Flexbox Setup Preview](../assets/flexbox-setup.png)
+![Flexbox Setup Preview](./assets/flexbox-setup.png)

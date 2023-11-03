@@ -1,36 +1,47 @@
-# Flexbox
+# ![Flexbox](./assets/tktkhero-main.png)
 
-![Hero image](./assets/tktkhero-main.png)
-
-## Module overview
+## About
 
 tktk What is the takeaway of this module?
 
-## Content outline
+## Prerequisites
 
-| Lesson | Video Time | Video | Topics Covered |
-| ------ |:----------:|:-----:| -------------- |
-| [Setup](./setup/README.md) | -- | -- | tktk topics covered |
-| [Concepts](./concepts/README.md) | -- | -- | tktk topics covered |
-| [Fundamentals](./fundamentals/README.md) | -- | -- | tktk topics covered |
-| [Flexbox Properties](./flexbox-properties/README.md) | -- | -- | tktk topics covered |
-| [Nesting Flexboxes](./nesting-flexboxes/README.md) | -- | -- | tktk topics covered |
-| [Build a Landing Page - Setup](./build-landing-page-setup/README.md) | -- | -- | tktk topics covered |
-| [Build a Landing Page - Breakdown](./build-landing-page-breakdown/README.md) | -- | -- | tktk topics covered |
-| [Build a Landing Page - Nav](./build-landing-page-nav/README.md) | -- | -- | tktk topics covered |
-| [Build a Landing Page - Hero](./build-landing-page-hero/README.md) | -- | -- | tktk topics covered |
-| [Review](./review/README.md) | -- | -- | tktk topics covered |
-|  **Total Module**                                        | -- | ---           | ---                 |
+- tktk
+- tktk
+- tktk
 
-## Additional content 
+## Content
+
+| Lesson | Video Time | Video | Skills |
+| ------ |:----------:|:-----:| ------ |
+| [Setup](./setup/README.md)                                                   | -- | -- | --         |
+| [Concepts](./concepts/README.md)                                             | -- | -- | tktk Skill |
+| [Fundamentals](./fundamentals/README.md)                                     | -- | -- | tktk Skill |
+| [Flexbox Properties](./flexbox-properties/README.md)                         | -- | -- | tktk Skill |
+| [Nesting Flexboxes](./nesting-flexboxes/README.md)                           | -- | -- | tktk Skill |
+| [Build a Landing Page - Setup](./build-landing-page-setup/README.md)         | -- | -- | tktk Skill |
+| [Build a Landing Page - Breakdown](./build-landing-page-breakdown/README.md) | -- | -- | tktk Skill |
+| [Build a Landing Page - Nav](./build-landing-page-nav/README.md)             | -- | -- | tktk Skill |
+| [Build a Landing Page - Hero](./build-landing-page-hero/README.md)           | -- | -- | tktk Skill |
+| [Review](./review/README.md)                                                 | -- | -- | tktk Skill |
+| **Total content**                                                            | -- | -- |            |
+
+## Level Up content
+
+|[tktk Level Up Microlesson Name](./level-up/tktk-microlesson-01.md) | -- | -- | tktk Skill |
+|[tktk Level Up Microlesson Name](./level-up/tktk-microlesson-02.md) | -- | -- | tktk Skill |
+|[tktk Level Up Microlesson Name](./level-up/tktk-microlesson-03.md) | -- | -- | tktk Skill |
+| ** Total Level Up content                                          | -- | -- |            |
+
+## References 
 
 📖 [Reference Materials](./references/README.md)
 
-### 🚀 Level Up
+## Deployed sites
 
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-01.md)
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-02.md)
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-03.md)
+🌐 [Live site]()
+
+🐙 [Repository]()
 
 ## Internal resources
 

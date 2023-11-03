@@ -6,13 +6,13 @@
 
 ## Hero Section
 
-On to our Hero section next. Let’s do the same breakdown for this that we did for our nav bar:
+On to our Hero section next. Let's do the same breakdown for this that we did for our nav bar:
 
-> ❓ What’s different about how the Hero section lays out its children compared to the nav?
+> ❓ What's different about how the Hero section lays out its children compared to the nav?
 
-Note that there is technically another section here - the attribution link at the bottom right - that we’re going to omit.
+Note that there is technically another section here - the attribution link at the bottom right - that we're going to omit.
 
-Here’s some HTML to get us started - copy it into your project.
+Here's some HTML to get us started - copy it into your project.
 
 ```html
   <section id="hero">
@@ -50,7 +50,7 @@ Here’s some HTML to get us started - copy it into your project.
 
 ### You Do 💪 - 2 minutes
 
-Take some time to explore this HTML and get more familiar with it. We’ll discuss any points of interest afterwords.
+Take some time to explore this HTML and get more familiar with it. We'll discuss any points of interest afterwords.
 
 ### You Do In Groups 💪 - 25 minutes
 
@@ -62,7 +62,7 @@ Utilize the Complete Guide to Flexbox to help you:
 - Turn the `headers` `div` into a flexbox and have it lay out its children in a column. Make it so that the font size of the h1 and h2 elements matches the font size from [our reference site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-flexbox-reference-deployed/). Make sure the text is vertically centered as well. Make sure there is no margin at the top of the `h1` element and that there is no margin on the bottom of the `h2` element, or else the `headers` element will be too large.
 - Give the input a size matching the size of the input element from [our reference site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-flexbox-reference-deployed/), along with an appropriate amount of padding and border radius. Remove the border from the element as well.
 
-Here’s the resulting CSS that we added!
+Here's the resulting CSS that we added!
 
 <details>
   <summary>Solution</summary>
@@ -133,7 +133,7 @@ Here’s the resulting CSS that we added!
   ```
 </details>
 
-And here’s our re-creation so far:
+And here's our re-creation so far:
 
 ![Finished Hero](./assets/finished-hero.png)
 
