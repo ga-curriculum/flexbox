@@ -14,17 +14,12 @@ tktk What is the takeaway of this module?
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Setup](./setup/README.md)                                                   | -- | -- | --         |
-| [Concepts](./concepts/README.md)                                             | -- | -- | tktk Skill |
-| [Fundamentals](./fundamentals/README.md)                                     | -- | -- | tktk Skill |
-| [Flexbox Properties](./flexbox-properties/README.md)                         | -- | -- | tktk Skill |
-| [Nesting Flexboxes](./nesting-flexboxes/README.md)                           | -- | -- | tktk Skill |
-| [Build a Landing Page - Setup](./build-landing-page-setup/README.md)         | -- | -- | tktk Skill |
-| [Build a Landing Page - Breakdown](./build-landing-page-breakdown/README.md) | -- | -- | tktk Skill |
-| [Build a Landing Page - Nav](./build-landing-page-nav/README.md)             | -- | -- | tktk Skill |
-| [Build a Landing Page - Hero](./build-landing-page-hero/README.md)           | -- | -- | tktk Skill |
-| [Review](./review/README.md)                                                 | -- | -- | tktk Skill |
-| **Total content**                                                            | -- | -- |            |
+| [Setup](./setup/README.md)                           | -- | -- | --         |
+| [Concepts](./concepts/README.md)                     | -- | -- | tktk Skill |
+| [Fundamentals](./fundamentals/README.md)             | -- | -- | tktk Skill |
+| [Flexbox Properties](./flexbox-properties/README.md) | -- | -- | tktk Skill |
+| [Nesting Flexboxes](./nesting-flexboxes/README.md)   | -- | -- | tktk Skill |
+| **Total content**                                    | -- | -- |            |
 
 ## Level Up content
 

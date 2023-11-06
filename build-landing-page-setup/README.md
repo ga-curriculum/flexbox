@@ -144,4 +144,4 @@ If you just want to reset from the beginning with your current files, this toggl
   ```
 </details>
 
-As part of this process, let's also set some reasonable expectations for what we're trying to accomplish. We're going to keep our re-creation focused around the layout of the site, not trying to duplicate fonts, photos, colors, animation, functionality, size of elements, etc. This will help keep us focused on the task at hand: **learning to design a site using Flexbox.** The purpose isn't to **FULLY recreate** the site, we're just staying focused on how these elements are laid out at a very basic level.
+
