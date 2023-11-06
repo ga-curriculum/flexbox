@@ -2,11 +2,11 @@
 
 ![Hero image](../assets/tktkhero-main-subhead.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to place flexboxes within flexboxes.
 
 # Nesting flexboxes
 
-There's one last major topic to cover before we move on to applying these ideas in a larger application which is the idea that we can nest a flexbox inside of another flexbox, like this (note a couple of small changes to the `flex-parent` class as well):
+To make more complex designs, we can nest flexboxes inside of other flexboxes.  Here's an example (note  the changes to both the `flex-parent` and `flex-child` classes):
 
 ```css
 .flex-parent {
@@ -14,7 +14,7 @@ There's one last major topic to cover before we move on to applying these ideas 
   display: flex;
   height: 600px;
   justify-content: space-around;
-	align-items: center;
+  align-items: center;
 }
 
 .flex-child {
@@ -25,6 +25,8 @@ There's one last major topic to cover before we move on to applying these ideas 
 }
 ```
 
+tktk Hunter/David: perhaps a screenshot?
+
 Now any element with the `flex-child` class is also a flexbox itself.
 
 Following our naming conventions, `flex-child` isn't a great name for this class now, but this is a great demonstration of the fact that flex children can themselves be flex parents!
@@ -32,7 +34,7 @@ Following our naming conventions, `flex-child` isn't a great name for this class
 A couple of items of note with this:
 
 - This has no impact on how the flex children inside the existing flex parent behave. They will still follow all of the existing rules of flex children, and if we wanted to, we could apply child-specific properties to the `flex-child` class. Just like in real life, someone can simultaneously be a parent of a child and a child of a parent.
-- What are the children elements of the `flex-child` `<div>`s? Even though there aren't specific elements inside of them, text is considered an element itself, so if we apply rules to these elements that will impact their children, then the text will be targeted!
+- What are the child elements of the `flex-child` `<div>`s? Even though there aren't specific elements inside of them, text is considered an element itself, so if we apply rules to these elements that will impact their children, then the text will be targeted!
 
 This means that with this change:
 
