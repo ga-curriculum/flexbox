@@ -2,7 +2,7 @@
 
 ![Hero image](../assets/tktkhero-main-subhead.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to change the spacing of flex child elements as well as the direction of the flex parent parent element.
 
 ## `justify-content`
 
@@ -28,6 +28,8 @@ and the code in the `flex-child` class to:
 }
 ```
 
+tktk Hunter/David maybe an image of the page at its current state?
+
 Small changes so far, but note that we have a bit of a sandbox to play in now. Let's apply one of the most common alignment properties - `justify-content` - to the `flex-parent` class:
 
 ```css
@@ -44,9 +46,6 @@ Small changes so far, but note that we have a bit of a sandbox to play in now. L
 ## You Do 💪
 
 Using flexbox, center the `<div>`s inside of the `<section>` both horizontally and vertically. You'll need to search the internet to help with this.
-
-This is an incredibly common action - remember how to do this; it's a great note to have handy. (Seriously, you will probably use this multiple times in **every project** you work on moving forward — not just at GA.)
-
 ## `flex-direction`
 
 We've talked about how, as a default, a flexbox parent will lay out its children in a row, but we have another common way to lay out children as well - a column. Set your `.flex-parent` rule to this:
@@ -79,10 +78,14 @@ For example, if the `flex-direction` is `row` (the default):
 - The **main axis** is **horizontal** and is controlled by modifying the **justify-content** property.
 - The **cross axis** is **vertical** and is controlled by modifying the **align-items** property.
 
+tktk Hunter: perhaps a diagram?
+
 If the `flex-direction` is `column`, they flip:
 
 - The **main axis** is **vertical** and is controlled by modifying the **justify-content** property.
 - The **cross axis** is **horizontal** and is controlled by modifying the **align-items** property.
+
+tktk Hunter: perhaps a diagram?
 
 > 🧠 This is something you shouldn't try to memorize right away, and you probably won't unless you use flexbox repeatedly and often. So instead of trying to remember, just experiment whenever you build a layout - do this often enough, and you'll remember it someday!
 
