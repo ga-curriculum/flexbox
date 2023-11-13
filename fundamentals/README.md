@@ -15,7 +15,7 @@ Let's discuss some baseline facts about the HTML we're working with. Ensuring we
 </section>
 ```
 
-- The `<section>` element is a **parent** element to all four `<div>` elements inside it. These `<div>` elements are the **children** of the `<section>` element (hence, our naming convention of the classes). Note we don't see its background color anywhere on our page - it's currently obscured by the background color set on the children elements!
+- The `<section>` element is a **parent** element to all four `<div>` elements inside it. These `<div>` elements are the **children** of the `<section>` element (hence, our naming convention of the classes). Note we don't see the `<section>` element's background color anywhere on our page -- it's currently obscured by the backgrounds of the child elements!
 
   tktk Hunter - can you make an asset that helps demo this? Doesn't need to be complex, just want something visual to map this idea to.
 
@@ -31,7 +31,7 @@ Let's discuss some baseline facts about the HTML we're working with. Ensuring we
   
   tktk Hunter, same as above, just an asset to reinforce this idea. Drawing out the height of the content and how that is equal to the height of the element should be enough.
 
-- The same is true of the `<section>` element! Its height is based entirely on the height of its children. This is why we don't see its background color anywhere on our page - it's the same as the combined height of all its children elements!
+- The same is true of the `<section>` element. Its height is based entirely on the height of its children. This is why we don't see its background color anywhere on our page - it's the same as the combined height of all its children elements!
 
   tktk Hunter, same as above, just an asset to reinforce this idea.
 
