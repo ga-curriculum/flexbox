@@ -1,4 +1,4 @@
-# ![Flexbox - Setup](../assets/tktkhero-main-subhead.png)
+# ![Flexbox - Setup](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to create HTML and CSS files with starter code for this module's lecture.
 

@@ -1,6 +1,4 @@
-# Nesting Flexboxes
-
-![Hero image](../assets/tktkhero-main-subhead.png)
+# ![Flexbox - Nesting Flexboxes](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to place flexboxes within flexboxes.
 

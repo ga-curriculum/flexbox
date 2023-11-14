@@ -1,6 +1,4 @@
-# Flexbox Properties
-
-![Hero image](../assets/tktkhero-main-subhead.png)
+# ![Flexbox - Flexbox Properties](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to change the spacing of flex child elements as well as the direction of the flex parent parent element.
 

@@ -1,4 +1,4 @@
-# ![Flexbox - Concepts](../assets/tktkhero-main-subhead.png)
+# ![Flexbox - Concepts](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to give a basic description of flexbox and how it helps create layouts.
 
@@ -11,8 +11,6 @@ Prior to flexbox, laying out the parts of a web page - from basic navigation hea
 Flexbox assists developers in laying out elements in a single dimension (in a line). This makes flexbox appear limited at first glance. However, as you'll see in this lesson, we can nest a flexbox within a flexbox to assist in creating 2-dimensional layouts.
 
 ![Flexbox Layouts](./assets/flexbox-layouts.png)
-
-tktk Hunter, could you throw a flexbox image in here? Similar to the above but just flexbox, no grid.
 
 # Why Use Flexbox?
 

@@ -1,4 +1,4 @@
-# ![Flexbox - Fundamentals](../assets/tktkhero-main-subhead.png)
+# ![Flexbox - Fundamentals](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to create Flexbox containers and items.
 
@@ -16,24 +16,23 @@ Let's discuss some baseline facts about the HTML we're working with. Ensuring we
 ```
 
 - The `<section>` element is a **parent** element to all four `<div>` elements inside it. These `<div>` elements are the **children** of the `<section>` element (hence, our naming convention of the classes). Note we don't see the `<section>` element's background color anywhere on our page -- it's currently obscured by the backgrounds of the child elements!
-
-  tktk Hunter - can you make an asset that helps demo this? Doesn't need to be complex, just want something visual to map this idea to.
+  ![Parent Element](./assets/flex-parent.png)
 
 - The `<section>` element is a **block** element. Block elements take up the entire width of their parent element, which, in this case, is the `body` element. By default, the `body` element is the full width of the browser window. Therefore, our `<section>` will span the full width of the browser window as well.
   
-  tktk Hunter, same as above, just an asset to reinforce this idea. 
+  ![Block Element Section](./assets/block-element-section.png)
 
 - Because each `<div>` within the `<section>` are also **block** elements, they, by default, also take up the full width of their **parent** element. That is why each `<div>` spans the full width of the browser window.
   
-  tktk Hunter, same as above, just an asset to reinforce this idea.
+  ![Block Element Divs](./assets/block-element-divs.png)
 
 - Also by default, their **height** is defined by the height of their contents. Unless you specify otherwise, they will be just as tall as they need to be to accommodate the content they hold.
   
-  tktk Hunter, same as above, just an asset to reinforce this idea. Drawing out the height of the content and how that is equal to the height of the element should be enough.
+  ![Default Height](./assets/default-height.png)
 
 - The same is true of the `<section>` element. Its height is based entirely on the height of its children. This is why we don't see its background color anywhere on our page - it's the same as the combined height of all its children elements!
 
-  tktk Hunter, same as above, just an asset to reinforce this idea.
+  ![Combined Height](./assets/combined-height.png)
 
 - If you remove the text from one of the `<div>`s, it looks like the element has been removed from the page, but it hasn't! Its height has just been reduced to 0.
 
