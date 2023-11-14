@@ -23,8 +23,6 @@ To make more complex designs, we can nest flexboxes inside of other flexboxes.  
 }
 ```
 
-tktk Hunter/David: perhaps a screenshot?
-
 Now any element with the `flex-child` class is also a flexbox itself.
 
 Following our naming conventions, `flex-child` isn't a great name for this class now, but this is a great demonstration of the fact that flex children can themselves be flex parents!
