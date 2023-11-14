@@ -1,6 +1,4 @@
-# Flexbox Properties
-
-![Hero image](../assets/tktkhero-main-subhead.png)
+# ![Flexbox - Flexbox Properties](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to change the spacing of flex child elements as well as the direction of the flex parent parent element.
 
@@ -27,8 +25,6 @@ and the code in the `flex-child` class to:
   width: 100px;
 }
 ```
-
-tktk Hunter/David maybe an image of the page at its current state?
 
 Small changes so far, but note that we have a bit of a sandbox to play in now. Let's apply one of the most common alignment properties - `justify-content` - to the `flex-parent` class:
 
@@ -78,14 +74,14 @@ For example, if the `flex-direction` is `row` (the default):
 - The **main axis** is **horizontal** and is controlled by modifying the **justify-content** property.
 - The **cross axis** is **vertical** and is controlled by modifying the **align-items** property.
 
-tktk Hunter: perhaps a diagram?
+![Flex Direction Row](./assets/flex-direction-row.png)
 
 If the `flex-direction` is `column`, they flip:
 
 - The **main axis** is **vertical** and is controlled by modifying the **justify-content** property.
 - The **cross axis** is **horizontal** and is controlled by modifying the **align-items** property.
 
-tktk Hunter: perhaps a diagram?
+![Flex Direction Column](./assets/flex-direction-column.png)
 
 > 🧠 This is something you shouldn't try to memorize right away, and you probably won't unless you use flexbox repeatedly and often. So instead of trying to remember, just experiment whenever you build a layout - do this often enough, and you'll remember it someday!
 

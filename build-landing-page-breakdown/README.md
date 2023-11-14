@@ -1,6 +1,4 @@
-# Build a Landing Page: Breakdown
-
-![Hero image](../assets/tktkhero-main-subhead.png)
+# ![Flexbox - Build a Landing Page - Breakdown](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to tktk
 
