@@ -2,13 +2,14 @@
 
 ## About
 
-tktk What is the takeaway of this module?
+In this module, students will learn about basic flexbox principles and ideas.
 
 ## Prerequisites
 
-- tktk
-- tktk
-- tktk
+- Intro to the CLI
+- Intro to HTML
+- Intro to CSS
+- Intermediate CSS
 
 ## Content
 

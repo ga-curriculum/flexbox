@@ -57,7 +57,7 @@ We use a CSS `display: flex;` declaration to make an element a *flex container* 
 
 After this change, your browser should look like this:
 
-![Flexbox Enabled](./assets/flexbox-enabled.png)
+![tktk Hunter, can you fix this to follow screenshot guidelines? Flexbox Enabled](./assets/flexbox-enabled.png)
 
 Note the changes:
 

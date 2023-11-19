@@ -37,7 +37,7 @@ Small changes so far, but note that we have a bit of a sandbox to play in now. L
 }
 ```
 
-![Space Around](./assets/row-space-around.png)
+![tktk Hunter, can you update this to match screenshot guidelines? Space Around](./assets/row-space-around.png)
 
 ## You Do 💪
 
@@ -57,11 +57,11 @@ We've talked about how, as a default, a flexbox parent will lay out its children
 
 And here's the result! Now the elements are laid out in a column!
 
-![Column](./assets/column.png)
+![tktk Hunter, can you update this to match screenshot guidelines? Column](./assets/column.png)
 
 Apply one more change to the `.flex-parent` rule: `justify-content: space-around;`
 
-![Hero image](./assets/col-space-around.png)
+![tktk Hunter, can you update this to match screenshot guidelines? Column layout, shown with space around elements](./assets/col-space-around.png)
 
 Notice the result and how it differs from when the `flex-direction` was its default value, `row`.
 
@@ -87,5 +87,4 @@ If the `flex-direction` is `column`, they flip:
 
 ## A complete guide to flexbox
 
-With this knowledge in hand, you can now briefly review and, in the future, reference what has become the [de facto guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to explore what all we can do with this flexbox.
-
+With this knowledge in hand, you can now briefly review and, in the future, reference what has become the [go to guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to explore what all we can do with this flexbox.

@@ -92,4 +92,4 @@ Open the `index.html` file in your browser.
 
 You should see something that looks like the following in your browser:
 
-![Flexbox Setup Preview](./assets/flexbox-setup.png)
+![tktk Hunter, can you update this to match new screenshot guidelines? Flexbox Setup Preview](./assets/flexbox-setup.png)
