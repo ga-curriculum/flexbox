@@ -21,22 +21,9 @@ tktk What is the takeaway of this module?
 | [Nesting Flexboxes](./nesting-flexboxes/README.md)   | -- | -- | tktk Skill |
 | **Total content**                                    | -- | -- |            |
 
-## Level Up content
-
-|[tktk Level Up Microlesson Name](./level-up/tktk-microlesson-01.md) | -- | -- | tktk Skill |
-|[tktk Level Up Microlesson Name](./level-up/tktk-microlesson-02.md) | -- | -- | tktk Skill |
-|[tktk Level Up Microlesson Name](./level-up/tktk-microlesson-03.md) | -- | -- | tktk Skill |
-| ** Total Level Up content                                          | -- | -- |            |
-
 ## References 
 
 📖 [Reference Materials](./references/README.md)
-
-## Deployed sites
-
-🌐 [Live site]()
-
-🐙 [Repository]()
 
 ## Internal resources
 
