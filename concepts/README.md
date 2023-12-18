@@ -1,22 +1,25 @@
 # ![Flexbox - Concepts](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to give a basic description of flexbox and how it helps create layouts.
+**Learning objective:** By the end of this lesson, students will be able to explain the purpose and advantages of using Flexbox for precise element layout on web pages.
 
 # What is flexbox?
 
-As a front-end developer, you will be required to precisely lay out the elements on web pages. Flexbox helps accomplish that by allowing for the arrangement of elements within a container.
+As you continue your journey as a front-end developer, one of the essential skills you'll need is the ability to precisely lay out elements on web pages. This is where Flexbox comes into play.
 
-Prior to flexbox, laying out the parts of a web page - from basic navigation headers to complex full-page layouts - was very difficult. Luckily, flexbox came along and was a game changer, making web design easier, more efficient, and more intuitive.
+Before the advent of Flexbox, crafting layouts for web pages, whether it was designing basic navigation headers or intricate full-page structures, was a formidable challenge. However, the introduction of Flexbox revolutionized the way we approach web design.
 
-Flexbox assists developers in laying out elements in a single dimension (in a line). This makes flexbox appear limited at first glance. However, as you'll see in this lesson, we can nest a flexbox within a flexbox to assist in creating 2-dimensional layouts.
+At first glance, Flexbox might seem like it operates only in a single dimension, essentially in a line. However, as you dive deeper into this lesson, you'll discover that Flexbox's capabilities extend beyond that. It allows you to nest Flexboxes within one another, enabling you to create complex 2-dimensional layouts that were once quite challenging to achieve.
 
 ![Flexbox Layouts](./assets/flexbox-layouts.png)
 
 # Why Use Flexbox?
 
-Flexbox excels at assisting developers with the following tasks:
+Here are some key advantages of using flexbox over other methods of positioning in CSS: 
 
-- Vertically centering content and elements within a container element.
-- Spacing child elements within a container uniformly.
-- Making the height of child elements laid out in columns the same even though they have a different amount of content.
-- Creating complex, responsive designs without less dependable strategies that can be difficult to maintain.
+**Vertically Centering Content:** Flexbox simplifies the task of vertically centering content and elements within a container, a task that used to require tricky workarounds.
+
+**Uniform Spacing:** It provides an elegant solution for evenly spacing child elements within a container, ensuring your designs look polished and consistent.
+
+**Equalizing Column Heights:** Flexbox can make the heights of child elements, even if they contain varying amounts of content, appear the same. This is a game-changer for creating visually appealing layouts that contain alot of text. 
+
+**Responsive Design Made Easy:** Flexbox empowers you to create complex, responsive designs with ease. It replaces less dependable strategies, making your code more maintainable and future-proof.

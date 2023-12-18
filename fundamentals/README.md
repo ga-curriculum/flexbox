@@ -1,10 +1,10 @@
 # ![Flexbox - Fundamentals](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to create Flexbox containers and items.
+**Learning objective:** By the end of this lesson, students will be able to implement Flexbox containers and observe the impact on the layout and behavior of child elements.
 
 ## Establishing default behavior
 
-Let's discuss some baseline facts about the HTML we're working with. Ensuring we have a base understanding of these default behaviors will help us evaluate how they change as we apply flexbox rules to them.
+Let's explore some fundamental facts about the HTML structure we're dealing with. Building a solid understanding of how our elements behave by default will make it easier to see the changes when we start using flexbox.
 
 ```html
 <section class="flex-parent">
@@ -14,35 +14,48 @@ Let's discuss some baseline facts about the HTML we're working with. Ensuring we
   <div class="flex-child" id="4">4</div>
 </section>
 ```
+<br>
 
-- The `<section>` element is a **parent** element to all four `<div>` elements inside it. These `<div>` elements are the **children** of the `<section>` element (hence, our naming convention of the classes). Note we don't see the `<section>` element's background color anywhere on our page -- it's currently obscured by the backgrounds of the child elements!
-  ![Parent Element](./assets/flex-parent.png)
+The `<section>` element acts as a parent container for all four `<div>` elements within it. These `<div>` elements are considered the children of the `<section>` element, as indicated by our class names. It's important to note we don't see the `<section>` element's background color anywhere on our page -- it is currently hidden behind the backgrounds of its child elements.
 
-- The `<section>` element is a **block** element. Block elements take up the entire width of their parent element, which, in this case, is the `body` element. By default, the `body` element is the full width of the browser window. Therefore, our `<section>` will span the full width of the browser window as well.
-  
-  ![Block Element Section](./assets/block-element-section.png)
+![Parent Element](./assets/flex-parent.png)
 
-- Because each `<div>` within the `<section>` are also **block** elements, they, by default, also take up the full width of their **parent** element. That is why each `<div>` spans the full width of the browser window.
-  
-  ![Block Element Divs](./assets/block-element-divs.png)
+<br><br>
 
-- Also by default, their **height** is defined by the height of their contents. Unless you specify otherwise, they will be just as tall as they need to be to accommodate the content they hold.
-  
-  ![Default Height](./assets/default-height.png)
+The `<section>` element is a **block** element. Block elements automatically expand to occupy the entire width of their parent element, which, in this case, is the `body` element. Since the `body` element, by default, spans the full width of the browser window, our `<section>` element also covers the entire width of the browser window.
 
-- The same is true of the `<section>` element. Its height is based entirely on the height of its children. This is why we don't see its background color anywhere on our page - it's the same as the combined height of all its children elements!
+![Block Element Section](./assets/block-element-section.png)
 
-  ![Combined Height](./assets/combined-height.png)
+<br><br>
 
-- If you remove the text from one of the `<div>`s, it looks like the element has been removed from the page, but it hasn't! Its height has just been reduced to 0.
+Each `<div>` element inside the `<section>` is also a **block** element by default. Therefore, they also occupy the entire width of their **parent** element, which in this case, is the `<section>`. This explains why each `<div>` element spans the full width of the browser window.
 
-- Here, we are giving these items classes called `"flex-parent"` and `"flex-child"`, but the actual application of Flexbox will occur in our CSS file. The names themselves provide no functionality whatsoever.
+![Block Element Divs](./assets/block-element-divs.png)
 
-## Implement flexbox
+<br><br>
 
-The above is all the behavior of our page in its default state before making any of the elements into a flexbox.
+By default, the **height** of these elements is determined by the content they contain. Unless you specify otherwise, they will be just as tall as they need to be to accommodate the content within them.
 
-Change the existing `.flex-parent` rule in your CSS to this:
+![Default Height](./assets/default-height.png)
+
+<br><br>
+
+The same height behavior applies to the `<section>` element. Its **height** is entirely based on the combined height of its children elements. This is why the background color of the `<section>` element isn't visible on the page—it matches the total height of its child elements.
+
+![Combined Height](./assets/combined-height.png)
+
+<br><br>
+
+If you were to remove the text content from one of the `<div>` elements, it might seem as if the element has disappeared from the page, but it hasn't! Its height has just been reduced to 0
+
+In our code, we have assigned classes `flex-parent` and `flex-child` to these items. However, the actual implementation of Flexbox will take place in our CSS file. The class names themselves do not provide any functionality; they are for organizational purposes.
+
+
+## Implementing flexbox
+
+Now, let's explore how to enable Flexbox on our page. We've discussed the default behavior of our elements before applying Flexbox, but now we'll introduce the changes.
+
+To implement Flexbox, you'll need to modify the existing `.flex-parent` rule in your CSS like this:
 
 ```css
 .flex-parent {
@@ -51,17 +64,21 @@ Change the existing `.flex-parent` rule in your CSS to this:
 }
 ```
 
-We use a CSS `display: flex;` declaration to make an element a *flex container* or *parent*.
+We achieve this by adding a CSS property, `display`, set to the value `flex`. This declaration transforms an element into a *flex container* or *parent*.
 
-> 🧠 The `flex-parent` class name isn't important to making this a flexbox! We're just using it here to clarify where the parent/child relationship is being formed. You typically wouldn't have a class with this name - something like `container` is far more common.
+> 🧠 It's essential to note that the specific class name, `flex-parent`, is not crucial to enable Flexbox functionality. We're using it here to clarify the establishment of the parent-child relationship. In practice, you'd typically use more descriptive class names like `container` for better clarity.
+
 
 After this change, your browser should look like this:
 
-![tktk Hunter, can you fix this to follow screenshot guidelines? Flexbox Enabled](./assets/flexbox-enabled.png)
+![Flexbox Enabled](./assets/flexbox-enabled.png)
 
-Note the changes:
+Let's review what has changed:
 
-- The `<section>` element is now a **flex parent** or **flex container.**
-- When we made this into a Flexbox, all of the children of the flexbox (the `<div>` elements) became **inline-block** elements instead of **block** elements. Their height is unchanged, but their width has collapsed to the width of the content inside of them.
-- Because the `<div>` elements' widths have collapsed, they no longer take up the full width of the `<section>`. We can see the black background of said `<section>` element. Also, note how the height of the `<section>` element has collapsed so that it is still the height of its children elements.
-- The `<div>` elements nested inside of our flex-parent `<section>` (its children) are now **flex children** or **flex items**. They are arranged in a row inside their parent. Arranging the children in a row is the default behavior of a Flexbox.
+- The `<section>` element has transformed into a **flex parent** or **flex container.**
+
+- When we applied Flexbox to it, all the child `<div>` elements switched from being **block** elements to **inline-block** elements. Their height remains the same, but their width now matches the width of their content.
+
+- As a result, the `<div>` elements no longer stretch to the full width of the `<section>`. You can now see the black background of the `<section>` element. Additionally, notice that the height of the `<section>` element has adjusted to match the combined height of its child elements.
+
+- The `<div>` elements nested inside our flex-parent `<section>` (these are its children) have become **flex children** or **flex items**. They are automatically arranged in a row within their parent. This horizontal arrangement is the default behavior of a Flexbox.
