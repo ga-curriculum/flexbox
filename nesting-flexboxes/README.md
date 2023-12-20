@@ -1,10 +1,10 @@
 # ![Flexbox - Nesting Flexboxes](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to place flexboxes within flexboxes.
+**Learning objective:** By the end of this lesson, students will be able to create grid-like dimensional layouts by nesting flex box containers inside of one another. 
 
 # Nesting flexboxes
 
-To make more complex designs, we can nest flexboxes inside of other flexboxes.  Here's an example (note  the changes to both the `flex-parent` and `flex-child` classes):
+To create more intricate designs, we can nest flexbox containers within other flexbox containers. Here's an example with changes to both the `flex-parent` and `flex-child` classes:
 
 ```css
 .flex-parent {
@@ -23,14 +23,14 @@ To make more complex designs, we can nest flexboxes inside of other flexboxes.  
 }
 ```
 
-Now any element with the `flex-child` class is also a flexbox itself.
+Now, any element with the `flex-child` class becomes a flexbox itself.
 
-Following our naming conventions, `flex-child` isn't a great name for this class now, but this is a great demonstration of the fact that flex children can themselves be flex parents!
+Following our naming conventions, `flex-child` may not be the best name for this class now. However, it demonstrates that flex children can also be flex parents!
 
-A couple of items of note with this:
+A couple of key points to note:
 
-- This has no impact on how the flex children inside the existing flex parent behave. They will still follow all of the existing rules of flex children, and if we wanted to, we could apply child-specific properties to the `flex-child` class. Just like in real life, someone can simultaneously be a parent of a child and a child of a parent.
-- What are the child elements of the `flex-child` `<div>`s? Even though there aren't specific elements inside of them, text is considered an element itself, so if we apply rules to these elements that will impact their children, then the text will be targeted!
+- This doesn't affect how the flex children inside the existing flex parent behave. They will still follow the existing rules for flex children. If needed, we can apply child-specific properties to the `flex-child` class. Just like in real life, someone can simultaneously be a parent of a child and a child of a parent.
+- What are the child elements of the `flex-child` `<div>`s? Even though there aren't specific elements inside of them, text is considered an element itself. So, if we apply rules to these elements that impact their children, it will affect the text as well.
 
 This means that with this change:
 
@@ -45,6 +45,4 @@ This means that with this change:
 }
 ```
 
-The text (the numbers in our boxes) will be centered inside their boxes both horizontally and vertically! Cool!
-
-tktk Hunter, maybe add one additional image of the nested flexboxes to show for good measure, maybe not, depending on if we feel the students will get it.
+The text (the numbers in our boxes) will be centered both horizontally and vertically within their boxes. Cool!
