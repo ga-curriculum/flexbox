@@ -2,7 +2,7 @@
 
 **Learning objective:** By the end of this lesson, students will be able to adjust the spacing of flex child elements and change the direction of the flex parent element using `justify-content` and `flex-direction`.
 
-# `display: flex`
+## `display: flex`
 
 Once you've enabled Flexbox on a parent container, the behavior of its children changes. You gain control over how they align both horizontally and vertically within their container. 
 
