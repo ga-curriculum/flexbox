@@ -6,7 +6,7 @@
 
 As you continue your journey as a front-end developer, one of the essential skills you'll need is the ability to precisely lay out elements on web pages. This is where Flexbox comes into play.
 
-Before the advent of Flexbox, crafting layouts for web pages, whether it was designing basic navigation headers or intricate full-page structures, was a formidable challenge. However, the introduction of Flexbox revolutionized the way we approach web design.
+Prior to flexbox, laying out the parts of a web page - from basic navigation headers to complex full-page layouts - was very difficult. The introduction of Flexbox revolutionized the way we approach web design.
 
 At first glance, Flexbox might seem like it operates only in a single dimension, essentially in a line. However, as you dive deeper into this lesson, you'll discover that Flexbox's capabilities extend beyond that. It allows you to nest Flexboxes within one another, enabling you to create complex 2-dimensional layouts that were once quite challenging to achieve.
 
