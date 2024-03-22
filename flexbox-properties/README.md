@@ -118,6 +118,6 @@ If the `flex-direction` is set to `column`, they reverse:
 
 > 🧠 You don't need to memorize this immediately. Practice with Flexbox as you build layouts, and you'll understand it over time through hands-on experience. Instead of stressing over memorization, embrace experimentation. It's all about learning by doing!
 
-## Hungry for more?
+## 🚀 Ready to Level up?
 
 Now that you have some base knowledge, you can review and refer to the comprehensive [go to guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) for more in-depth exploration of Flexbox capabilities in the future.
