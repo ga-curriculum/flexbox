@@ -1,8 +1,8 @@
 # ![Flexbox - Nesting Flexboxes](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to create grid-like dimensional layouts by nesting flex box containers inside of one another. 
+**Learning objective:** By the end of this lesson, students will be able to create grid-like dimensional layouts by nesting flex box containers inside of one another.
 
-# Nesting flexboxes
+## Nesting flexboxes
 
 To create more intricate designs, we can nest flexbox containers within other flexbox containers. Here's an example with changes to both the `flex-parent` and `flex-child` classes:
 

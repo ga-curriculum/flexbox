@@ -4,13 +4,13 @@
 
 ## `display: flex`
 
-Once you've enabled Flexbox on a parent container, the behavior of its children changes. You gain control over how they align both horizontally and vertically within their container. 
+Once you've enabled flexbox on a parent container, the behavior of its children changes. You gain control over how they align both horizontally and vertically within their container.
 
-> 🧠 It's important to remember that, in Flexbox, you primarily apply properties to the parent element, not the children.
+> 🧠 It's important to remember that, in flexbox, you primarily apply properties to the parent element, not the children.
 
 Now, let's experiment with what we've learned and coded so far. First to give ourselves more space, we'll make some adjustments to the `flex-parent` and `flex-child` classes.
 
-Add the following to the `flex-parent`: 
+Add the following to the `flex-parent`:
 
 ```css
 .flex-parent {
@@ -32,10 +32,9 @@ and the following to  `flex-child`:
 
 Small changes, but note that we have a slightly bigger sandbox to play in now.
 
-
 ## `justify-content`
 
-Now, let's dive into one of the most commonly used alignment properties in Flexbox - `justify-content`. We'll apply it to the `flex-parent` class to see how it affects the layout of our elements.
+Now, let's dive into one of the most commonly used alignment properties in flexbox - `justify-content`. We'll apply it to the `flex-parent` class to see how it affects the layout of our elements.
 
 ```css
 .flex-parent {
@@ -50,29 +49,25 @@ With this code, we're telling the browser to arrange our child elements with spa
 
 ![Space Around](./assets/row-space-around.png)
 
-
-The `justify-content` property in Flexbox can take [several values](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content), each of which affects how flex items are positioned along the **main axis** (horizontal axis) inside a flex container.
+The `justify-content` property in flexbox can take [several values](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content), each of which affects how flex items are positioned along the **main axis** (horizontal axis) inside a flex container.
 
 Take a moment to try out the following values for `justify-content`:
 
-- **space-between:** It evenly distributes the available space between flex items, with no space before the first item and after the last item. This creates a layout where items are as far apart as possible.
+- **`space-between`:** It evenly distributes the available space between flex items, with no space before the first item and after the last item. This creates a layout where items are as far apart as possible.
 
-- **space-evenly:** This value distributes space evenly between and around flex items, including space before the first item and after the last item.
-
+- **`space-evenly`:** This value distributes space evenly between and around flex items, including space before the first item and after the last item.
 
 ## `align-items`
 
 The `align-items` property allows you to control the vertical alignment of flex items within a flex container. By setting this property to values like `flex-start`, `center`, or `flex-end`, you can position your elements along the **cross-axis** (the perpendicular axis to the main axis) to achieve the desired layout.
 
-
 ## 🎓 You Do
 
-Using the `justify-content` and `align-items` properties, experiment with centering the `<div>`s inside of the `<section>` both horizontally and vertically. Note how these properties affect the elements' positioning on a different **axis**. 
-
+Using the `justify-content` and `align-items` properties, experiment with centering the `<div>`s inside of the `<section>` both horizontally and vertically. Note how these properties affect the elements' positioning on a different **axis**.
 
 ## `flex-direction`
 
-Think of flex-direction as the blueprint for arranging your elements. It defines the **primary direction** in which elements flow within the container. 
+Think of flex-direction as the blueprint for arranging your elements. It defines the **primary direction** in which elements flow within the container.
 
 - `flex-direction`: **row (default)** is like a horizontal row of books where elements line up from left to right.
 - `flex-direction`: **column** is like stacking blocks on top of each other, creating a vertical arrangement.
@@ -100,24 +95,24 @@ Notice how the behavior of the `justify-content` property differs from when the 
 
 ## Main axis and cross axis
 
-A **flex container** always has a **main axis** as well as a **cross axis**. 
+A **flex container** always has a **main axis** as well as a **cross axis**.
 
 When the `flex-direction` is set at its default `row`:
 
-- The **main axis** is **horizontal** and is controlled by modifying the **justify-content** property.
-- The **cross axis** is **vertical** and is controlled by modifying the **align-items** property.
+- The **main axis** is **horizontal** and is controlled by modifying the **`justify-content`** property.
+- The **cross axis** is **vertical** and is controlled by modifying the **`align-items`** property.
 
 ![Flex Direction Row](./assets/flex-direction-row.png)
 
 If the `flex-direction` is set to `column`, they reverse:
 
-- The **main axis** is **vertical** and is controlled by modifying the **justify-content** property.
-- The **cross axis** is **horizontal** and is controlled by modifying the **align-items** property.
+- The **main axis** is **vertical** and is controlled by modifying the **`justify-content`** property.
+- The **cross axis** is **horizontal** and is controlled by modifying the **`align-items`** property.
 
 ![Flex Direction Column](./assets/flex-direction-column.png)
 
-> 🧠 You don't need to memorize this immediately. Practice with Flexbox as you build layouts, and you'll understand it over time through hands-on experience. Instead of stressing over memorization, embrace experimentation. It's all about learning by doing!
+> 🧠 You don't need to memorize this immediately. Practice with flexbox as you build layouts, and you'll understand it over time through hands-on experience. Instead of stressing over memorization, embrace experimentation. It's all about learning by doing!
 
 ## 🚀 Ready to Level up?
 
-Now that you have some base knowledge, you can review and refer to the comprehensive [go to guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) for more in-depth exploration of Flexbox capabilities in the future.
+Now that you have some base knowledge, you can review and refer to the comprehensive [go to guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) for more in-depth exploration of flexbox capabilities in the future.
