@@ -18,7 +18,7 @@ Flexbox, or the flexible box layout, is a crucial tool for front-end developers.
 | [Concepts](./concepts/README.md)                     | -- | -- | Purpose of flexbox in layout positioning.                             |
 | [Fundamentals](./fundamentals/README.md)             | -- | -- | Creating a flex container with `display:flex`.                        |
 | [Flexbox Properties](./flexbox-properties/README.md) | -- | -- | Using flex properties to affect positioning on two axes.              |
-| [Nesting Flexboxes](./nesting-flexboxes/README.md)   | -- | -- | Nesting flexbox containers to create grid-like, dimentional layouts.  |
+| [Nesting Flexboxes](./nesting-flexboxes/README.md)   | -- | -- | Nesting flexbox containers to create grid-like, dimensional layouts.  |
 | **Total content**                                    | -- | -- |                                                                       |
 
 ## References

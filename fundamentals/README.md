@@ -7,12 +7,12 @@
 Let's explore some fundamental facts about the HTML structure we're dealing with. Building a solid understanding of how our elements behave by default will make it easier to see the changes when we start using flexbox.
 
 ```html
-<section class="flex-parent">
-  <div class="flex-child" id="1">1</div>
-  <div class="flex-child" id="2">2</div>
-  <div class="flex-child" id="3">3</div>
-  <div class="flex-child" id="4">4</div>
-</section>
+  <section class="flex-parent">
+    <div class="flex-child" id="one">1</div>
+    <div class="flex-child" id="two">2</div>
+    <div class="flex-child" id="three">3</div>
+    <div class="flex-child" id="four">4</div>
+  </section>
 ```
 
 The `<section>` element acts as a parent container for all four `<div>` elements within it. These `<div>` elements are considered the children of the `<section>` element, as indicated by our class names. It's important to note we don't see the `<section>` element's background color anywhere on our page -- it is currently hidden behind the backgrounds of its child elements.
