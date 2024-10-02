@@ -1,4 +1,7 @@
-# ![Flexbox - Nesting Flexboxes](./assets/hero.png)
+<h1>
+  <span class="headline">Flexbox</span>
+  <span class="subhead">Nesting Flexboxes</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to create grid-like dimensional layouts by nesting flex box containers inside of one another.
 

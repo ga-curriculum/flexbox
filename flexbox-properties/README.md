@@ -1,4 +1,7 @@
-# ![Flexbox - Flexbox Properties](./assets/hero.png)
+<h1>
+  <span class="headline">Flexbox</span>
+  <span class="subhead">Flexbox Properties</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to adjust the spacing of flex child elements and change the direction of the flex parent element using `justify-content` and `flex-direction`.
 

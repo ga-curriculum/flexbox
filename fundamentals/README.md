@@ -1,4 +1,7 @@
-# ![Flexbox - Fundamentals](./assets/hero.png)
+<h1>
+  <span class="headline">Flexbox</span>
+  <span class="subhead">Fundamentals</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to implement flexbox containers and observe the impact on the layout and behavior of child elements.
 

@@ -1,4 +1,7 @@
-# ![Flexbox - Setup](./assets/hero.png)
+<h1>
+  <span class="headline">Flexbox</span>
+  <span class="subhead">Setup</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to create HTML and CSS files with starter code for this module's lecture.
 
