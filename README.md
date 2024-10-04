@@ -9,14 +9,13 @@ Flexbox, or the flexible box layout, is a crucial tool for front-end developers.
 
 ## Content
 
-| Lesson                                               | Video Time | Video | Skills                                                               |
-| ---------------------------------------------------- | :--------: | :---: | -------------------------------------------------------------------- |
-| [Setup](./setup/README.md)                           |     --     |  --   | Setting up the development environment.                              |
-| [Concepts](./concepts/README.md)                     |     --     |  --   | Purpose of flexbox in layout positioning.                            |
-| [Fundamentals](./fundamentals/README.md)             |     --     |  --   | Creating a flex container with `display:flex`.                       |
-| [Flexbox Properties](./flexbox-properties/README.md) |     --     |  --   | Using flex properties to affect positioning on two axes.             |
-| [Nesting Flexboxes](./nesting-flexboxes/README.md)   |     --     |  --   | Nesting flexbox containers to create grid-like, dimensional layouts. |
-| **Total content**                                    |     --     |  --   |                                                                      |
+| Lesson                                               | Skills                                                               |
+| ---------------------------------------------------- | -------------------------------------------------------------------- |
+| [Setup](./setup/README.md)                           | Setting up the development environment.                              |
+| [Concepts](./concepts/README.md)                     | Purpose of flexbox in layout positioning.                            |
+| [Fundamentals](./fundamentals/README.md)             | Creating a flex container with `display:flex`.                       |
+| [Flexbox Properties](./flexbox-properties/README.md) | Using flex properties to affect positioning on two axes.             |
+| [Nesting Flexboxes](./nesting-flexboxes/README.md)   | Nesting flexbox containers to create grid-like, dimensional layouts. |
 
 ## References
 
