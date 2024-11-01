@@ -29,6 +29,11 @@ Flexbox, or the flexible box layout, is a crucial tool for front-end developers.
 - Intro to CSS
 - Intermediate CSS
 
+### Github Pages Sites
+
+- [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/flexbox/canvas-landing-pages/fallback)
+- [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/flexbox/canvas-landing-pages/seb)
+
 ### Resources
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
