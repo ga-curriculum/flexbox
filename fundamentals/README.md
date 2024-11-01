@@ -1,4 +1,7 @@
-# ![Flexbox - Fundamentals](./assets/hero.png)
+<h1>
+  <span class="headline">Flexbox</span>
+  <span class="subhead">Fundamentals</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to implement flexbox containers and observe the impact on the layout and behavior of child elements.
 
@@ -15,7 +18,7 @@ Let's explore some fundamental facts about the HTML structure we're dealing with
   </section>
 ```
 
-The `<section>` element acts as a parent container for all four `<div>` elements within it. These `<div>` elements are considered the children of the `<section>` element, as indicated by our class names. It's important to note we don't see the `<section>` element's background color anywhere on our page -- it is currently hidden behind the backgrounds of its child elements.
+The `<section>` element acts as a parent container for all four `<div>` elements within it. These `<div>` elements are considered the children of the `<section>` element, as indicated by our class names. It's important to note we don't see the `<section>` element's background color anywhere on our page - it is currently hidden behind the backgrounds of its child elements.
 
 ![Parent element](./assets/flex-parent.png)
 
